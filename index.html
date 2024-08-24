@@ -141,7 +141,7 @@
       </section>
 
       <section>
-        <div class="bg-cover" style="background-image: url('./assets/bg.jpg'); height: 900px;">
+        <div class="bg-cover" style="background-image: url('./assets/bg.jpg'); height: 720px;">
           <button class="bg-[#ABEF5F33] text-center px-2 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4">
             <i class="fa-solid fa-arrow-right text-black rounded-full "></i>
             <p class="text-black">Let's Connect</p>
@@ -150,30 +150,53 @@
           <h1 class="font-extrabold text-4xl text-center py-4">Let's Discuss Next Project</h1>
           <p class="text-center py-4">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
 
-          <div class="grid grid-cols-2 grid-rows-5 items-center mx-auto">
+          <div class="lg:grid grid-cols-2 grid-rows-5 items-center mx-auto ">
 
-            <div class="grid grid-cols-1 text-center rounded-lg">
-              <input class="rounded-lg mx-auto" type="text" placeholder="First Name*">
+            <div class="text-center rounded-lg">
+              <input class="rounded-lg mx-auto px-16 py-2 " type="text" placeholder="First Name*">
             </div>
-            <div class="grid grid-cols-1 text-center rounded-lg">
-              <input class="rounded-lg mx-auto" type="text" placeholder="Last name*">
+            <div class="text-center rounded-lg">
+              <input class="rounded-lg mx-auto px-16 py-2 text-left" type="text" placeholder="Last name*">
             </div>
-            <div class="grid grid-cols-1  text-center rounded-lg">
-              <input class="rounded-lg mx-auto" type="text" placeholder="Phone Number*">
+            <div class=" text-center rounded-lg">
+              <input class="rounded-lg mx-auto px-16 py-2 text-left" type="text" placeholder="Phone Number*">
             </div>
-            <div class="grid grid-cols-1  text-center rounded-lg" >
-              <input class="rounded-lg mx-auto" type="text" placeholder="Email:*">
+            <div class=" text-center rounded-lg" >
+              <input class="rounded-lg mx-auto px-16 py-2 text-left" type="text" placeholder="Email:*">
             </div>
-            <div class="grid grid-rows-3 text-center rounded-lg">
-              <input class="rounded-lg mx-auto" type="text" placeholder="Write Your Message here">
+            <div class="col-span-2 row-span-3 text-center rounded-lg">
+              <input class="rounded-lg mx-auto lg:px-72 sm:px-40 py-24 text-left " type="text" placeholder="Write Your Message here">
             </div>
           </div>
+          <button class="bg-green-500 text-center lg:px-96 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4">
+            <p class="text-black">Send Mail</p>
+            <i class="fa-solid fa-arrow-right text-white bg-black rounded-full -rotate-45 "></i>
+          </button>
         </div>
       </section>
     </main>
 
-    <footer>
-
+    <footer class="bg-black">
+      <div class="flex mx-auto justify-center w-5/6 pt-16">
+        <i class="fa-solid fa-arrow-right bg-green-400 rounded-full mx-2 px-2 py-2 -rotate-45 text-black"></i>
+        <h2 class="font-bold text-lg text-white">Rinterio</h2>
+    </div>
+    <p class="mx-auto py-8 text-gray-600 text-center"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+    <div class="flex justify-center w-5/6">
+      <ul class=" text-white">
+        <a href="">Home</a>
+        <a href="">Services</a>
+        <a href="">Portfolio</a>
+        <a href="">Blogs</a>
+        <a href="">Contact Us</a>
+      </ul>
+    </div>
+    <div class="pb-12">
+      <button class="bg-green-500 text-center px-8 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4">
+        <p class="text-black">Book Consult</p>
+        <i class="fa-solid fa-arrow-right text-white bg-black rounded-full -rotate-45 "></i>
+      </button>
+    </div>
     </footer>
     
 </body>
