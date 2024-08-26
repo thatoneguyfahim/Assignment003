@@ -27,24 +27,25 @@
         }
     </style>
 </head>
+
 <body class="manrope">
-    <header class="lg:w-5/6 mx-auto text-center mb-24">
+    <header class="w-5/6 mx-auto text-center mb-24">
         <nav class="flex gap-14 justify-center mt-5 mb-5">
-            <div class="flex mx-auto">
-                <i class="fa-solid fa-arrow-right bg-green-400 rounded-full mx-2 px-2 py-2 -rotate-45 text-black"></i>
+            <div class="flex mx-auto max-sm:flex-1">
+                <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full mx-2 px-2 py-2 -rotate-45 text-black"></i>
                 <h2 class="font-bold text-lg">Rinterio</h2>
             </div>
-            <ul class="flex gap-5 mx-auto">
+            <ul class="max-sm:hidden flex gap-5 mx-auto">
               <li class="font-bold">Home</li>
               <li class="text-gray-400">Services</li>
               <li class="text-gray-400" >Portfolio</li>
               <li class="text-gray-400">Blog</li>
               <li class="text-gray-400">Contact Us</li>
             </ul>
-            <div class="flex gap-6 mx-auto text-center items-center">
+            <div class="max-sm:hidden flex gap-6 mx-auto text-center items-center">
               <i class="fa-solid fa-magnifying-glass bg-white rounded-full"></i>
               <i class="fa-solid fa-cart-shopping"></i>
-              <button class="bg-green-300 text-center px-2 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2">
+              <button class="bg-[#ABEF5F] text-center px-2 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2">
                 <p class="text-black">Book Consult</p>
                 <i class="fa-solid fa-arrow-right bg-black text-white rounded-full -rotate-45"></i>
               </button>
@@ -55,8 +56,8 @@
           <h1 class="text-center py-2 font-black lg:text-5xl md:text-3xl "> A barn house of this design has a <br> striking appearance</h1>
           <p class="text-gray-300 text-center py-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
           <button class="bg-green-300 text-center px-2 font-bold flex rounded-2xl mx-auto  items-center gap-2">
-            <p class="text-black">View Details</p>
-            <i class="fa-solid fa-arrow-right bg-green-400 rounded-full px-2 py-2 -rotate-45 text-black"></i>
+            <p class="text-black pl-2">View Details</p>
+            <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full px-2 py-2 -rotate-45 text-black"></i>
           </button>
         </div>
     </header>
@@ -64,7 +65,7 @@
     <main class=" bg-gray-200 mx-auto">
       <section class="w-5/6 mx-auto mb-10">
         <div class="my-4">
-          <img src="./assets/Vector.png" class="lg:visible" alt="">
+          <img src="./assets/Vector.png" class="max-sm:invisible" alt="">
           <button class="flex items-center bg-white rounded-xl mx-24 -my-4">
             <i class="fa-solid fa-arrow-right rounded-full mx-1 px-2 py-2  text-black"></i>
             <p class="bg-white mx-2 font-bold">About Us </p>
@@ -106,7 +107,7 @@
           <p class="text-center mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
         </div>
 
-        <div class="lg:flex mx-auto justify-evenly">
+        <div class="lg:flex mx-auto justify-evenly max-sm:space-y-6">
           <div class="items-center px-4 bg-[#E7C1D3] rounded-lg gap-2">
             <img src="./assets/concept.png" class="py-2" alt="">
             <div class="py-4">
@@ -150,25 +151,25 @@
           <h1 class="font-extrabold text-4xl text-center py-4">Let's Discuss Next Project</h1>
           <p class="text-center py-4">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
 
-          <div class="lg:grid grid-cols-2 grid-rows-5 items-center mx-auto ">
+          <form class="lg:grid grid-cols-2 grid-rows-5 items-center mx-auto space-y-4">
 
-            <div class="text-center rounded-lg">
-              <input class="rounded-lg mx-auto px-16 py-2 " type="text" placeholder="First Name*">
+            <div class="text-center ">
+              <input class="rounded-full mx-auto pr-48 py-2" type="text" placeholder="First Name*">
             </div>
-            <div class="text-center rounded-lg">
-              <input class="rounded-lg mx-auto px-16 py-2 text-left" type="text" placeholder="Last name*">
+            <div class="text-center">
+              <input class="rounded-full mx-auto pr-48 py-2 text-left" type="text" placeholder="Last name*">
             </div>
-            <div class=" text-center rounded-lg">
-              <input class="rounded-lg mx-auto px-16 py-2 text-left" type="text" placeholder="Phone Number*">
+            <div class=" text-center">
+              <input class="rounded-full mx-auto pr-48 py-2 text-left" type="text" placeholder="Phone Number*">
             </div>
-            <div class=" text-center rounded-lg" >
-              <input class="rounded-lg mx-auto px-16 py-2 text-left" type="text" placeholder="Email:*">
+            <div class=" text-center " >
+              <input class="rounded-full mx-auto pr-48 py-2 text-left" type="text" placeholder="Email:*">
             </div>
-            <div class="col-span-2 row-span-3 text-center rounded-lg">
-              <input class="rounded-lg mx-auto lg:px-72 sm:px-40 py-24 text-left " type="text" placeholder="Write Your Message here">
+            <div class="col-span-2 row-span-3 text-center ">
+              <input class="rounded-lg mx-auto pr-96 lg:pl-24 pb-52 max-sm:pr-48 max-sm:pb-40 text-left" type="text" placeholder="Write Your Message here">
             </div>
-          </div>
-          <button class="bg-green-500 text-center lg:px-96 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4">
+          </form>
+          <button class="bg-[#ABEF5F] text-center lg:px-96 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4 max-sm:px-40">
             <p class="text-black">Send Mail</p>
             <i class="fa-solid fa-arrow-right text-white bg-black rounded-full -rotate-45 "></i>
           </button>
@@ -178,21 +179,21 @@
 
     <footer class="bg-black">
       <div class="flex mx-auto justify-center w-5/6 pt-16">
-        <i class="fa-solid fa-arrow-right bg-green-400 rounded-full mx-2 px-2 py-2 -rotate-45 text-black"></i>
+        <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full mx-2 px-2 py-2 -rotate-45 text-black"></i>
         <h2 class="font-bold text-lg text-white">Rinterio</h2>
     </div>
     <p class="mx-auto py-8 text-gray-600 text-center"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-    <div class="flex justify-center w-5/6">
-      <ul class=" text-white">
-        <a href="">Home</a>
-        <a href="">Services</a>
-        <a href="">Portfolio</a>
+    <div class="flex justify-center w-5/6 mx-auto">
+      <ul class=" flex gap-24 mx-auto justify-evenly text-white max-sm:flex-col max-sm:gap-4">
+        <a  href="">Home</a>
+        <a  href="">Services</a>
+        <a  href="">Portfolio</a>
         <a href="">Blogs</a>
         <a href="">Contact Us</a>
       </ul>
     </div>
     <div class="pb-12">
-      <button class="bg-green-500 text-center px-8 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4">
+      <button class="bg-[#ABEF5F] text-center px-8 py-1 font-bold flex rounded-2xl mx-auto items-center gap-2 my-4">
         <p class="text-black">Book Consult</p>
         <i class="fa-solid fa-arrow-right text-white bg-black rounded-full -rotate-45 "></i>
       </button>
